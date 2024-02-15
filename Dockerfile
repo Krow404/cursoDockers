@@ -3,4 +3,4 @@ FROM nginx:latest
 #path:/usr/shared/nginx/html
 #copia el contenido de sitio a la carpeta html del contenedor
 
-COPY /src/sitio /usr/share/nginx/html  
+COPY /sitio /usr/share/nginx/html  
