@@ -19,7 +19,22 @@ docker images <name_image>
 
 docker images --filter=reference='<*:version>'
 ```
-Borrar imagenes:
+
+mostrar el ID_image completo
+
+```shell
+docker images --no-trunc
+```
+
+Cambiar el tag de una imagen
+
+```shell
+docker image tag <name:version> <newName:version>
+```
+
+
+Borrar imagenes y eliminar etiquetas:
+-f:force
 
 ```shell
 docker rmi -f <IMAGE_ID>
